@@ -1,4 +1,3 @@
-
 import { Instagram, Twitter, Facebook, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer = () => {
@@ -37,8 +36,8 @@ const Footer = () => {
               URBANUSA
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Streetwear brand yang menggabungkan elemen retro dan futuristik 
-              untuk menciptakan fashion statement yang bold dan autentik.
+              Streetwear brand yang menggabungkan tren modern dengan kearifan budaya Nusantara 
+              untuk menciptakan fashion statement yang autentik dan bermakna.
             </p>
             
             {/* Social Links */}
@@ -121,7 +120,7 @@ const Footer = () => {
           <div className="max-w-md mx-auto text-center">
             <h4 className="text-xl font-semibold text-white mb-4">Stay Updated</h4>
             <p className="text-gray-400 mb-6">
-              Dapatkan info terbaru tentang koleksi dan promo eksklusif
+              Dapatkan info terbaru tentang koleksi dan promo eksklusif UrbanUSA
             </p>
             <div className="flex gap-2">
               <input
@@ -139,7 +138,7 @@ const Footer = () => {
         {/* Bottom Footer */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2024 UrbanUSA. All rights reserved.
+            © 2024 UrbanUSA (Urban Nusantara). All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-gray-400 hover:text-purple-400 transition-colors">

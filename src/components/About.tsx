@@ -1,22 +1,21 @@
-
 import { Zap, Palette, Globe } from 'lucide-react';
 
 const About = () => {
   const features = [
     {
       icon: <Zap className="w-8 h-8" />,
-      title: "Futuristic Design",
-      description: "Desain yang menggabungkan elemen masa depan dengan sentuhan streetwear kontemporer"
+      title: "Modern Streetwear",
+      description: "Desain yang menggabungkan tren streetwear global dengan sentuhan budaya Nusantara"
     },
     {
       icon: <Palette className="w-8 h-8" />,
       title: "Bold Graphics",
-      description: "Grafis yang berani dan eye-catching yang mencerminkan budaya urban masa kini"
+      description: "Grafis yang berani dan eye-catching yang mencerminkan kekayaan budaya Indonesia"
     },
     {
       icon: <Globe className="w-8 h-8" />,
-      title: "Global Culture",
-      description: "Inspirasi dari berbagai budaya streetwear global dengan sentuhan lokal Indonesia"
+      title: "Nusantara Heritage",
+      description: "Inspirasi dari kearifan budaya Nusantara yang dikemas dalam gaya urban kontemporer"
     }
   ];
 
@@ -33,14 +32,15 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              UrbanUSA lahir dari visi untuk menciptakan streetwear yang tidak hanya mengikuti tren, 
-              tetapi menjadi pionir dalam menggabungkan elemen retro dan futuristik. Kami percaya bahwa 
-              fashion adalah bentuk ekspresi diri yang paling autentik.
+              UrbanUSA (Urban Nusantara) lahir dari visi untuk menciptakan streetwear yang tidak hanya 
+              mengikuti tren global, tetapi juga merayakan kekayaan budaya Nusantara. Kami percaya bahwa 
+              fashion adalah jembatan antara tradisi dan modernitas.
             </p>
 
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              Setiap produk kami dirancang dengan detail yang cermat, menggunakan material berkualitas tinggi 
-              dan teknologi printing terdepan untuk menghadirkan desain yang bold dan tahan lama.
+              Setiap produk kami dirancang dengan memadukan elemen desain kontemporer dan motif-motif 
+              tradisional Indonesia, menggunakan material berkualitas tinggi untuk menghadirkan 
+              streetwear yang autentik dan bermakna.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">

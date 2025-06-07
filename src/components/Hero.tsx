@@ -19,19 +19,19 @@ const Hero = () => {
             URBAN
           </span>
           <span className="block bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent">
-            USA
+            NUSANTARA
           </span>
         </h1>
 
         {/* Tagline */}
         <p className="text-xl md:text-2xl text-gray-300 mb-8 font-light tracking-wide animate-fade-in">
-          Street • Future • Culture
+          Street • Culture • Nusantara
         </p>
 
         {/* Description */}
         <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in">
-          Menggabungkan elemen retro dan futuristik dalam streetwear kontemporer. 
-          Desain bold yang mencerminkan budaya urban masa kini.
+          Menggabungkan elemen streetwear modern dengan kearifan budaya Nusantara. 
+          Desain bold yang mencerminkan identitas urban Indonesia kontemporer.
         </p>
 
         {/* CTA Buttons */}
